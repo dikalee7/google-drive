@@ -67,6 +67,8 @@
             headers: 
                 [
                     { text: "id", value: "id" },
+                    { text: "fileKey", value: "fileKey" },
+                    { text: "keywords", value: "keywords" },
                 ],
             index : [],
             newValue: {},
@@ -84,6 +86,8 @@
             this.values = temp.data._embedded.indexes;
 
             this.newValue = {
+                'fileKey': '',
+                'keywords': '',
             }
         },
         methods: {
