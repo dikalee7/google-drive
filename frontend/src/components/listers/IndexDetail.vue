@@ -8,9 +8,7 @@
             <div>
                 <String label="FileKey" v-model="item.fileKey" :editMode="editMode" @change="change" />
             </div>
-            <div>
-                <String label="Keywords" v-model="item.keywords" :editMode="editMode" @change="change" />
-            </div>
+            <StringManager offline label="Keywords" v-model="item.keywords" :editMode="false" @change="change" />
         </v-card-text>
 
         <v-card-actions>

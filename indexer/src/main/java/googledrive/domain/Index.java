@@ -31,9 +31,9 @@ public class Index  {
     
     
     
+    @ElementCollection
     
-    
-    private String keywords;
+    private List<String> keywords;
 
     @PostPersist
     public void onPostPersist(){

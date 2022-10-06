@@ -69,7 +69,7 @@
             
             me.newValue = {
                 'fileKey': '',
-                'keywords': '',
+                'keywords': [],
             }
         },
         methods:{
